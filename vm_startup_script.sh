@@ -37,7 +37,7 @@ sudo systemctl enable docker
 
 #Download image and install SAP 2023 Trial
 # Pull the docker image
-sudo docker pull sapse/abap-cloud-developer-trial:ABAPTRIAL_2023
+sudo docker pull sapse/abap-cloud-developer-trial:2023
 
 # Start the docker container
 sudo docker run \
