@@ -2,10 +2,10 @@
 #Create directory and download transport
 mkdir abap_sdk_transport
 cd abap_sdk_transport
-wget https://storage.googleapis.com/sap-hana-lab/sap-installers/abap-sdk/abap-sdk-for-google-cloud-1.11.zip
+wget "https://storage.googleapis.com/sap-hana-lab/sap-installers/abap-sdk/abap-sdk-for-google-cloud-1.11.zip"
 
 #Unzip the transport files
-unzip abap-sdk-for-google-cloud-1.11.zip
+unzip "abap-sdk-for-google-cloud-1.11.zip"
 
 # Copy transport files into the Docker container
 sudo docker cp K900457.GM1 a4h:/usr/sap/trans/cofiles/K900457.GM1
