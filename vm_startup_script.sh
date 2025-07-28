@@ -35,7 +35,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 sudo systemctl start docker
 sudo systemctl enable docker
 
-#Download image and install SAP 1909 Trial
+#Download image and install SAP 2023 Trial
 # Pull the docker image
 sudo docker pull sapse/abap-cloud-developer-trial:ABAPTRIAL_2023
 
