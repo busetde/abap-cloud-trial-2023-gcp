@@ -1,6 +1,6 @@
-# Install ABAP Platform Trail 2022 docker on Google Cloud Platform
+# Install ABAP Platform Trail 2023 docker on Google Cloud Platform
 
-The scripts listed in this repository is referred by article - Evaluating ABAP SDK for Google Cloud using ABAP Platform Trial 2022 on Google Cloud Platform. 
+The scripts listed in this repository is referred by article - Evaluating ABAP SDK for Google Cloud using ABAP Platform Trial 2023 on Google Cloud Platform. 
 Below is the Google Bard generated explanation of each of the scripts:  
 
 ## Create Virtual Machine
