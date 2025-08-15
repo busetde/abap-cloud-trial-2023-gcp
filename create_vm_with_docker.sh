@@ -110,7 +110,6 @@ https://raw.githubusercontent.com/busetde/abap-cloud-trial-2023-gcp/main/vm_star
     --service-account=abap-sdk-dev@$PROJECT_NAME.iam.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/cloud-platform \
     --tags=sapmachine \
-#   --create-disk=auto-delete=yes,boot=yes,device-name=abap-trial-docker,image=projects/debian-cloud/global/images/debian-12-bookworm-v20240815,mode=rw,size=200,type=projects/$PROJECT_NAME/zones/$ZONE/diskTypes/pd-balanced \
     --create-disk=auto-delete=yes,boot=yes,device-name=abap-trial-docker,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250709,mode=rw,size=200,type=projects/$PROJECT_NAME/zones/$ZONE/diskTypes/pd-balanced \
     --no-shielded-secure-boot \
     --shielded-vtpm \
